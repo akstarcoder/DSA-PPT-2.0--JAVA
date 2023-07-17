@@ -1,6 +1,8 @@
+Assignment Questions 5
 
+-------------------------
 💡 **Question 1**
-
+-------------------------
 Convert 1D Array Into 2D Array
 
 You are given a **0-indexed** 1-dimensional (1D) integer array original, and two integers, m and n. You are tasked with creating a 2-dimensional (2D) array with  m rows and n columns using **all** the elements from original.
@@ -20,9 +22,9 @@ The first group of n=2 elements in original, [1,2], becomes the first row in the
 The second group of n=2 elements in original, [3,4], becomes the second row in the constructed 2D array.
 
 
-
+-------------------------
 💡 **Question 2**
-
+-------------------------
 You have n coins and you want to build a staircase with these coins. The staircase consists of k rows where the ith row has exactly i coins. The last row of the staircase **may be** incomplete.
 
 Given the integer n, return *the number of **complete rows** of the staircase you will build*.
@@ -37,9 +39,9 @@ Given the integer n, return *the number of **complete rows** of the staircase yo
 
 
 
-
+-------------------------
 💡 **Question 3**
-
+-------------------------
 Given an integer array nums sorted in **non-decreasing** order, return *an array of **the squares of each number** sorted in non-decreasing order*.
 
 **Example 1:**
@@ -53,9 +55,9 @@ Given an integer array nums sorted in **non-decreasing** order, return *an array
 After sorting, it becomes [0,1,9,16,100].
 
 
-
+-------------------------
 💡 **Question 4**
-
+-------------------------
 Given two **0-indexed** integer arrays nums1 and nums2, return *a list* answer *of size* 2 *where:*
 
 - answer[0] *is a list of all **distinct** integers in* nums1 *which are **not** present in* nums2*.*
@@ -77,9 +79,9 @@ For nums2, nums2[0] = 2 is present at index 1 of nums1, whereas nums2[1] = 4 and
 
 
 
-
+-------------------------
 💡 **Question 5**
-
+-------------------------
 Given two integer arrays arr1 and arr2, and the integer d, *return the distance value between the two arrays*.
 
 The distance value is defined as the number of elements arr1[i] such that there is not any element arr2[j] where |arr1[i]-arr2[j]| <= d.
@@ -124,9 +126,9 @@ For arr1[2]=8 we have:
 
 
 
-
+-------------------------
 💡 **Question 6**
-
+-------------------------
 Given an integer array nums of length n where all the integers of nums are in the range [1, n] and each integer appears **once** or **twice**, return *an array of all the integers that appears **twice***.
 
 You must write an algorithm that runs in O(n) time and uses only constant extra space.
@@ -141,9 +143,9 @@ You must write an algorithm that runs in O(n) time and uses only constant extra 
 
 
 
-
+-------------------------
 💡 **Question 7**
-
+-------------------------
 Suppose an array of length n sorted in ascending order is **rotated** between 1 and n times. For example, the array nums = [0,1,2,4,5,6,7] might become:
 
 - [4,5,6,7,0,1,2] if it was rotated 4 times.
@@ -167,9 +169,9 @@ The original array was [1,2,3,4,5] rotated 3 times.
 
 
 
-
+-------------------------
 💡 **Question 8**
-
+-------------------------
 An integer array original is transformed into a **doubled** array changed by appending **twice the value** of every element in original, and then randomly **shuffling** the resulting array.
 
 Given an array changed, return original *if* changed *is a **doubled** array. If* changed *is not a **doubled** array, return an empty array. The elements in* original *may be returned in **any** order*.
