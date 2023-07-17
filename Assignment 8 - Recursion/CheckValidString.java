@@ -19,7 +19,7 @@ The following rules define a **valid** string:
 
 **Output:** true
 
-/*
+*/
 
 
 
