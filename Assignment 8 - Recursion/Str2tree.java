@@ -10,7 +10,7 @@ You always start to construct the **left** child node of the parent first if it 
 
 **Output:** [4,2,6,3,1,5]
 
-/*
+*/
 
 
 /**
@@ -28,6 +28,8 @@ You always start to construct the **left** child node of the parent first if it 
  *     }
  * }
  */
+
+
 class Solution {
     public TreeNode str2tree(String s) {
         return dfs(s);
