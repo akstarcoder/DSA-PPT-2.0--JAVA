@@ -14,7 +14,7 @@ In one **step**, you can delete exactly one character in either string.
 
 **Explanation:** You need one step to make "sea" to "ea" and another step to make "eat" to "ea".
 
-/*
+*/
 
 
 class Solution {
