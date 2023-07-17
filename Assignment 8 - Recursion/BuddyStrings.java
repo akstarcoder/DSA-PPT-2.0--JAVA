@@ -17,7 +17,7 @@ Swapping letters is defined as taking two indices i and j (0-indexed) such that 
 
 **Explanation:** You can swap s[0] = 'a' and s[1] = 'b' to get "ba", which is equal to goal.
 
-/*
+*/
 
 
 class Solution {
